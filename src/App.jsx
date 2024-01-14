@@ -5,7 +5,10 @@ function App() {
   // let title = "this is a title";
   // let vidUrl = "";
   // let audioUrl = "";
-
+const surl = new URL(document.location);
+const sharedDes = surl.searchParams.get("description");
+const sharedText = surl.searchParams.get("link");
+	
 const options = {
 	method: 'GET',
 	headers: {
