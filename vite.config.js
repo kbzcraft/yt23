@@ -12,7 +12,7 @@ export default defineConfig({
         background_color:"#ffffff",
         display:"standalone",
         "share_target":{
-          "action":"/share-target",
+          "action":"/",
           "method":"GET",
           "params":{
             "title":"share-title",
